@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="js"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#FBF7F0">
+<title>奔向2027：15分钟医疗圈，如何真正走进生活？</title>
+<meta name="description" content="深圳1021个小区步行实测：从家门口出发，15分钟医疗圈如何真正走进生活？">
+<meta property="og:title" content="奔向2027：15分钟医疗圈，如何真正走进生活？">
+<meta property="og:type" content="article">
+<meta property="og:image" content="img/hero_pastel.jpg">
+<meta property="og:description" content="深圳1021个小区步行实测：15分钟医疗圈，如何真正走进生活？">
+<link rel="icon" href="data:,">
+<script>document.documentElement.className+=' js';</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="has-topnav motion-off">
+
+<!-- ================= 顶部导航栏（锚点跳转） ================= -->
+<nav class="topnav" id="topnav">
+  <a class="brand" href="#s0">15分钟医疗圈</a>
+  <div class="links">
+    <a href="#s1" class="">起点之问</a>
+    <a href="#s2" class="">基层拼图</a>
+    <a href="#s3" class="">空间实测</a>
+    <a href="#s4" class="">就医路径</a>
+    <a href="#s5" class="">服务时间</a>
+    <a href="#s6" class="">三地破局</a>
+    <a href="#s7" class="">回到原点</a>
+    <a href="#s8">数据溯源</a>
+  </div>
+  <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="true" title="减少动态效果">减少动态</button>
+</nav>
+<div id="rail"><div class="dot" title="封面"><span class="tip">封面</span></div><div class="dot" title="起点之问"><span class="tip">起点之问</span></div><div class="dot" title="基层拼图"><span class="tip">基层拼图</span></div><div class="dot" title="空间实测"><span class="tip">空间实测</span></div><div class="dot" title="就医路径"><span class="tip">就医路径</span></div><div class="dot" title="服务时间"><span class="tip">服务时间</span></div><div class="dot" title="三地破局"><span class="tip">三地破局</span></div><div class="dot" title="回到原点"><span class="tip">回到原点</span></div><div class="dot" title="数据溯源"><span class="tip">数据溯源</span></div></div>
+<!-- 视差背景层（最远层：缓慢移动） -->
+<div class="px-bg" id="pxBg" data-px="bg" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+</div>
+
+<main id="app">
+
+<!-- ================= S0 封面（独立一页 · 深底压图） ================= -->
+<section class="ch cover" id="s0" data-ch="" data-lab="封面">
+  <div class="cover-media">
+    <img src="img/hero_pastel.jpg" alt="夜色里通往社康的路" width="1506" height="968">
+    <span class="cover-veil"></span>
+  </div>
+  <div class="cover-body">
+    <h1 class="cover-title"><span class="t-l1">奔向2027：15分钟医疗圈</span><span class="t-l2">如何真正走进生活？</span></h1>
+    <p class="cover-sub">从家门口出发，走到真实获得医疗服务的那一步，这个距离才算真正走进生活。</p>
+  </div>
+  <span class="cover-scroll" aria-hidden="true"><i></i></span>
+</section>
+
+<!-- ================= S1 起点之问（标题页 + 开篇正文） ================= -->
+<section class="ch" id="s1" data-ch="" data-lab="起点之问" data-chap="#E8A33D">
+  <div class="titlepage">
+    <h2 class="q-big"><span class="w">生病时，</span><br><span class="w">你的第一反应是去哪</span><span class="qmark">？</span></h2>
+  </div>
+
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">起点之问</h2>
+      <p class="ch-sub">到家门口的这段路，不止一个距离</p>
+    </div>
+
+    <figure class="shot full" data-px="mid">
+      <img src="img/图6-2_pastel.jpg" alt="清晨出门：从家走向社康的路" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <!-- 双路径同框：地图上的直线 ≠ 真实的路与门 -->
+    <div class="twopath" data-reveal="">
+      <svg class="path-svg" viewBox="0 0 1080 280" role="img" aria-label="地图上的直线距离与真实步行路径的对比">
+        <path class="pl pl-straight" d="M70,220 L600,220"></path>
+        <circle class="pn pn-home" cx="70" cy="220" r="9"></circle>
+        <circle class="pn pn-straight" cx="600" cy="220" r="9"></circle>
+        <path class="pl pl-real" d="M70,220 C190,130 340,265 490,205 C600,160 690,215 850,140"></path>
+        <circle class="pn pn-real" cx="850" cy="140" r="9"></circle>
+        <text class="l-home" x="70" y="196" text-anchor="middle">家</text>
+        <text class="l-straight" x="600" y="196" text-anchor="end">地图上的直线</text>
+        <text class="l-she" x="600" y="248" text-anchor="middle">社康</text>
+        <text class="l-real" x="850" y="114" text-anchor="end">真实的路与门</text>
+        <text class="l-she" x="850" y="172" text-anchor="middle">社康</text>
+        <text class="l-ann" x="560" y="104" text-anchor="middle">绕过围墙 · 穿过路口 · 走过天桥</text>
+      </svg>
+      <div class="path-note">
+        <p>地图上的直线距离很短，真实步行却可能绕过围墙、道路和出入口。即使能在15分钟内到达，附近社康是否开诊、能否提供所需服务，仍决定了这段路是否真正通向医疗服务。</p>
+      </div>
+    </div><!-- 问题链：三个问题 -->
+    <div class="qb ques-chain" data-reveal="">
+      <p class="qhead">这一篇，我们沿着三个问题往下走</p>
+      <div class="tl"><span class="tl-line"></span><span class="tl-fill"></span><span class="tl-node"></span></div>
+      <div class="ql qq"><span class="qi"><svg width="34" height="34" viewBox="0 0 40 40"><path d="M20,4 L37,20 L20,36 L3,20 Z" fill="none" stroke="#3FA98F" stroke-width="2.5"></path><text x="12" y="26" font-size="17" fill="#3FA98F">1</text></svg></span><p>15分钟医疗圈，正在怎样进入城市生活？</p></div>
+      <div class="ql qq"><span class="qi"><svg width="34" height="34" viewBox="0 0 40 40"><path d="M20,4 L37,20 L20,36 L3,20 Z" fill="none" stroke="#5B8FD9" stroke-width="2.5"></path><text x="12" y="26" font-size="17" fill="#5B8FD9">2</text></svg></span><p>15分钟，真的走得到吗？走到了，它会成为第一站吗？</p></div>
+      <div class="ql qq"><span class="qi"><svg width="34" height="34" viewBox="0 0 40 40"><path d="M20,4 L37,20 L20,36 L3,20 Z" fill="none" stroke="#6E5A9E" stroke-width="2.5"></path><text x="12" y="26" font-size="17" fill="#6E5A9E">3</text></svg></span><p>需要的时候，它还在吗？有没有人，已经做到了？</p></div>
+    </div>
+
+    <p class="ck" data-reveal="">一个人从产生医疗需求，到真正获得医疗服务，<b>并不只有「距离」这一步</b>。</p>
+  </div>
+</section>
+
+<!-- ================= S2 第一章 · 基层拼图 ================= -->
+<section class="ch" id="s2" data-ch="" data-lab="基层拼图" data-chap="#E8616B">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">基层拼图</h2>
+      <p class="ch-sub">15分钟医疗圈，正在怎样进入城市生活？</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图1-1_pastel.jpg" alt="村卫生室：基层医疗网络的一角" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="notes">
+      <div class="sticky"><span class="sv" data-val="100" data-suf="+">100+</span><p class="su">全国年诊疗人次（亿）</p><p class="sd">基层承接了其中过半的诊疗服务</p></div>
+      <div class="sticky"><span class="sv" data-val="56.4" data-dec=".1" data-suf="%">56.4%</span><p class="su">2015 年基层诊疗占比</p><p class="sd">十年前这条曲线的起点</p></div>
+      <div class="sticky"><span class="sv amber" data-val="53.1" data-dec=".1" data-suf="%">53.1%</span><p class="su">2025 年基层诊疗占比</p><p class="sd">公报口径 · 仍未回到十年前</p></div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>全国一年发生的诊疗人次已经超过百亿，基层医疗卫生机构承接了其中过半的诊疗服务。但把时间线拉长，基层承担的诊疗份额并没有沿着一个方向持续增长。</p>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">全国基层诊疗占比：十年间走过一条浅 V</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图1"></div>
+      <p class="fig-note">数据来源：历年全国卫生健康事业发展统计公报（2015–2025）｜样本量：全国总量（亿人次）｜时间：2015–2025｜口径：基层＝社区卫生服务中心(站)+乡镇卫生院+村卫生室+门诊部(所)；2025 年为公报值 53.1%（吹风会口径 52.6% 仅作对照）；2020 年受疫情影响为异常年。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>全国基层诊疗占比在下降后有所回升，但仍未恢复到十年前的水平。</p>
+    </div>
+
+    
+
+    <p class="blk-lead" data-reveal="">诊疗份额的变化之外，基层医疗网络本身也在调整。</p><div class="fig" data-reveal="">
+      <h3 class="fig-title">村卫生室与门诊部及诊所：此消彼长的十年</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图2"></div>
+      <p class="fig-note">数据来源：历年全国卫生健康事业发展统计公报｜样本量：全国机构数（万所）｜时间：2015–2025｜口径：门诊部及诊所 2024 年起为「门诊部 47242 ＋ 诊所/医务室 351736」合并口径；2025 年仅村卫生室有公报值 56.0 万（四舍五入），门诊部及诊所未披露，故虚线止于 2024。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>基层医疗机构的数量与构成发生了变化，但机构规模本身不能直接代表居民实际获得的服务。阅读这组数据时，需要同时关注网点结构与后续的服务使用情况。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图1-2_pastel.jpg" alt="候诊室：基层医疗服务的一角" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <p class="blk-lead" data-reveal="">机构结构在变化，支撑这些服务的人力也在增长。</p>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">基层卫生人员：柱子长高了，占比却几乎走平</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图3"></div>
+      <p class="fig-note">数据来源：历年全国卫生健康事业发展统计公报（2015–2024）｜样本量：全国基层卫生人员数与占卫生人员总数比｜时间：2015–2024｜口径：2023 年起全科医生统计口径调整，2022→2023 的跳升含口径变化；左轴为人员绝对数（万人），右轴为占卫生人员总数比（%）。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>卫生人员总量的变化不必然意味着基层人员占比同步提高。判断基层服务的人力支撑，既要看总量，也要看人员在不同层级之间的分布。</p>
+    </div>
+
+    <p class="blk-lead" data-reveal="">如果机构分布越密集，基层医疗相关指标就一定越高，那么散点图中理应出现清晰的同步变化。</p>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">机构密度与使用率：全省放在同一张图上看</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图4"></div>
+      <p class="fig-note">数据来源：2023年《中国卫生健康统计年鉴》机构数据与2024年分省非医院机构占比数据｜样本量：30个省级单元｜时间：2023–2024｜口径：纵轴为非医院机构占比的倒算口径，不等同于基层诊疗实际使用率；机构数据与占比数据的年份不完全一致；气泡大小＝常住人口；r=0.030 表示线性相关极弱。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>网点分布反映服务网络的空间基础，却不能单独说明居民是否真正使用这些服务。机构数量、空间可达与实际诊疗，是理解基层医疗的不同维度。</p>
+    </div>
+
+    <figure class="shot wide" data-px="mid">
+      <img src="img/图1-3.jpg" alt="抽象版图：基层医疗网络的结构变化" loading="lazy" width="1920" height="822">
+    </figure>
+
+    <div class="hook" data-reveal="">
+      有了基层服务网络，还要继续追问：居民从家出发，能否沿真实道路抵达这些网点？
+      <span class="shake">—— 当这张网从全国统计数字中落到居民脚下，15分钟才真正变成一段需要走过的路。</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S3 第二章 · 空间实测 ================= -->
+<section class="ch" id="s3" data-ch="" data-lab="空间实测" data-chap="#3FA98F">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">空间实测</h2>
+      <p class="ch-sub">把居住小区放回真实步行路径中，才能看到「15分钟」在地图上如何落地。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图2-1_pastel.jpg" alt="城中村窄巷：真实的步行起点" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="blk" data-reveal="">
+      <p>地图上的医疗服务点之间，看起来只是距离的远近。落到真实道路上，距离却要经过围墙、街区、河流、天桥和道路连接，才能变成实际的步行时间。</p>
+      <p>深圳的步行实测，将起点放在具体小区，沿真实路径计算到最近社康所需的时间。</p>
+    </div>
+
+    <!-- 官方 vs 实测 -->
+    <div class="ovs" data-reveal="">
+      <div class="ovs-card">
+        <p class="ovs-num">90<sup>%</sup><span class="ovs-unit">+</span></p>
+        <p class="ovs-lab">官方口径：15 分钟内到达医疗服务点</p>
+        <p class="ovs-txt">2026 年 9 月，国家卫健委发布会公布：全国 90% 以上的居民，15 分钟内可到达最近的医疗服务点。</p>
+      </div>
+      <div class="ovs-card">
+        <p class="ovs-num verm">85.3<span class="ovs-unit">%</span></p>
+        <p class="ovs-lab">本次实测：1021 个小区步行可达率</p>
+        <p class="ovs-txt">样本范围、统计单位与测量方法与官方不同，不作直接相减——我们量的，是你发烧时会去找的那扇门。</p>
+      </div>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">1021 个小区到最近社康的实测步行时间</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图5b"></div>
+      <p class="fig-note">数据来源：高德步行路径规划 API 逐点实测；样本：商品房 801 / 老旧社区 172 / 城中村 48，合计 1021 个小区；时间：2026-09 采集；口径：步行时间取「门到门最短路径」，不含等电梯与挂号；点选时段按钮，可切换只看某一个时段，选「全部（构成）」看 7 段完整构成；前 3 段（0–15 分钟）为 15 分钟政策线以内；⚠ 城中村样本仅 48 个，长尾各段计数极小，不作比例外推。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>对深圳1021个居住小区进行步行路径实测后，85.3%的样本点可在15分钟内步行到达社康。这个比例呈现的是样本小区的步行可达情况，不等同于全体居民实际就医比例。</p>
+    </div>
+
+    <p class="blk-lead" data-reveal="">这种差异首先出现在小区类型之间吗？</p>
+
+    <div class="fig-side" data-reveal="">
+      <div class="side-inner">
+        <div>
+          <svg class="illus estate-illus" viewBox="0 0 300 170" aria-label="三类小区彩色手绘：高层商品房、密集城中村、坡顶老旧社区">
+            <defs>
+              <filter id="paperGrain" x="-5%" y="-5%" width="110%" height="110%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"></feTurbulence>
+                <feColorMatrix in="n" type="saturate" values="0"></feColorMatrix>
+                <feComponentTransfer><feFuncA type="linear" slope="0.06"></feFuncA></feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="over"></feComposite>
+              </filter>
+            </defs>
+            <path class="hand" d="M10,150 C110,142 200,148 292,144" stroke="#8A93A6" stroke-width="2.5" opacity=".5"></path>
+            <g transform="translate(52 62)">
+              <g filter="url(#paperGrain)">
+                <path d="M6,-51 C8,-54 13,-54 15,-52 L24,-51 C27,-50 28,-47 27,-44 L26,31 C26,33 24,34 22,34 L6,34 C4,34 2,32 3,30 L4,-48 Z" fill="#D9EEE7" stroke="#3FA98F" stroke-width="2.5"></path>
+                <path d="M5,32 L4,-48 C4,-49 5,-50 6,-50 L9,-51 L9,34 L5,34 Z" fill="#2C8C75" opacity=".4"></path>
+                <path d="M13,-59 C14,-60 18,-60 19,-58 L20,-53 C20,-52 18,-51 16,-51 L14,-52 C13,-52 12,-53 13,-54 Z" fill="#BFE3D8" stroke="#3FA98F" stroke-width="2"></path>
+                <path d="M5,-37 L26,-38" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M5,-25 L27,-26" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M5,-13 L26,-14" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M6,-1 L27,-2" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M5,11 L26,10" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M6,23 L27,22" stroke="#7FC7B6" stroke-width="3" opacity=".95" fill="none"></path>
+                <path d="M-27,-29 C-25,-32 -20,-32 -17,-30 L-9,-30 C-6,-29 -5,-26 -6,-24 L-7,29 C-7,31 -9,33 -12,33 L-26,33 C-29,33 -30,30 -29,27 L-28,-26 Z" fill="#BFE3D8" stroke="#3FA98F" stroke-width="2.5"></path>
+                <path d="M-28,18 L-7,17 L-7,29 C-7,31 -9,33 -12,33 L-26,33 C-29,33 -30,30 -29,27 Z" fill="#2C8C75" opacity=".32"></path>
+                <path d="M-26,-21 L-8,-22" stroke="#7FC7B6" stroke-width="2.5" opacity=".95" fill="none"></path>
+                <path d="M-27,-9 L-8,-10" stroke="#7FC7B6" stroke-width="2.5" opacity=".95" fill="none"></path>
+                <path d="M-27,3 L-8,2" stroke="#7FC7B6" stroke-width="2.5" opacity=".95" fill="none"></path>
+                <path d="M-26,15 L-8,14" stroke="#7FC7B6" stroke-width="2.5" opacity=".95" fill="none"></path>
+                <path d="M-26,27 L-8,26" stroke="#7FC7B6" stroke-width="2.5" opacity=".95" fill="none"></path>
+                <path d="M-17,34 C-6,29 12,28 22,32" stroke="#2C8C75" stroke-width="2" fill="none" opacity=".75"></path>
+                <circle cx="-31" cy="25" r="5" fill="#2C8C75" opacity=".85"></circle>
+                <path d="M-31,30 L-31,35" stroke="#2C8C75" stroke-width="1.8"></path>
+                <circle cx="30" cy="27" r="4.5" fill="#2C8C75" opacity=".85"></circle>
+                <path d="M30,31 L30,35" stroke="#2C8C75" stroke-width="1.8"></path>
+              </g>
+              <text x="-32" y="50" font-size="12" fill="#3FA98F">商品房</text>
+            </g>
+            <g transform="translate(150 78)">
+              <g filter="url(#paperGrain)">
+                <path d="M-38,-40 C-37,-43 -33,-43 -31,-41 L-19,-41 C-17,-40 -16,-38 -17,-36 L-18,26 C-18,28 -20,29 -22,29 L-37,29 C-40,29 -41,26 -40,23 L-39,-37 Z" fill="#F4E9D8" stroke="#C08A2E" stroke-width="2.5"></path>
+                <path d="M-39,16 L-18,15 L-18,26 C-18,28 -20,29 -22,29 L-37,29 C-40,29 -41,26 -40,23 Z" fill="#8F6215" opacity=".3"></path>
+                <path d="M-16,-24 C-15,-27 -11,-27 -9,-25 L-1,-25 C1,-24 2,-22 1,-20 L0,26 C0,28 -2,29 -4,29 L-15,29 C-17,29 -19,27 -18,25 L-17,-21 Z" fill="#EFDFC0" stroke="#C08A2E" stroke-width="2.5"></path>
+                <path d="M4,-46 C6,-49 10,-49 12,-46 L20,-46 C22,-45 23,-43 22,-41 L21,26 C21,28 19,29 17,29 L5,29 C3,29 1,27 2,25 L3,-43 Z" fill="#F4E9D8" stroke="#C08A2E" stroke-width="2.5"></path>
+                <path d="M3,15 L21,14 L21,26 C21,28 19,29 17,29 L5,29 C3,29 1,27 2,25 Z" fill="#8F6215" opacity=".3"></path>
+                <rect x="8" y="-37" width="6" height="7" fill="#FBF8EF" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <rect x="16" y="-37" width="6" height="7" fill="#FBF8EF" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <rect x="8" y="-25" width="6" height="7" fill="#FBF8EF" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <path d="M24,-32 C26,-35 30,-35 31,-32 L36,-32 C38,-31 39,-29 38,-27 L37,26 C37,28 35,29 33,29 L25,29 C23,29 21,27 22,25 L23,-29 Z" fill="#EFDFC0" stroke="#C08A2E" stroke-width="2.5"></path>
+                <rect x="-45" y="8" width="7" height="7" fill="#8F6215" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <circle cx="-41.5" cy="11.5" r="2" fill="none" stroke="#F4E9D8" stroke-width="1"></circle>
+                <rect x="0" y="-14" width="7" height="7" fill="#8F6215" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <circle cx="3.5" cy="-10.5" r="2" fill="none" stroke="#F4E9D8" stroke-width="1"></circle>
+                <rect x="21" y="-2" width="7" height="7" fill="#8F6215" stroke="#C08A2E" stroke-width="1.4" rx="1"></rect>
+                <circle cx="24.5" cy="1.5" r="2" fill="none" stroke="#F4E9D8" stroke-width="1"></circle>
+                <path d="M-30,-18 L4,-20" stroke="#8F6215" stroke-width="1.2"></path>
+                <path d="M-24,-17 L-21,-18 L-20,-13 L-25,-12 Z" fill="#E8616B" opacity=".9"></path>
+                <path d="M-12,-19 L-9,-20 L-8,-14 L-13,-13 Z" fill="#5B8FD9" opacity=".9"></path>
+                <path d="M-33,10 L-21,10 L-21,28 L-33,28 Z" fill="#8F6215" opacity=".85"></path>
+                <path d="M-31,11 L-31,27 M-29,11 L-29,27 M-27,11 L-27,27 M-25,11 L-25,27 M-23,11 L-23,27" stroke="#F4E9D8" stroke-width="1" opacity=".8"></path>
+              </g>
+              <text x="-34" y="40" font-size="12" fill="#C08A2E">城中村</text>
+            </g>
+            <g transform="translate(252 70)">
+              <g filter="url(#paperGrain)">
+                <path d="M-29,-38 C-27,-41 -22,-41 -20,-39 L20,-40 C22,-39 24,-37 23,-35 L22,34 C22,36 20,37 18,37 L-21,37 C-24,37 -25,34 -24,31 L-25,-36 Z" fill="#E7E9EE" stroke="#8A93A6" stroke-width="2.5"></path>
+                <path d="M-25,20 L22,19 L22,34 C22,36 20,37 18,37 L-21,37 C-24,37 -25,34 -24,31 Z" fill="#6F7887" opacity=".28"></path>
+                <path d="M-32,-31 C-29,-42 -24,-52 -17,-57 C-9,-61 1,-60 9,-55 C16,-51 24,-49 29,-46 C32,-43 33,-37 33,-31 L28,-31 C28,-36 25,-40 21,-42 C13,-45 5,-45 -2,-41 C-9,-37 -16,-38 -23,-41 C-27,-43 -30,-44 -32,-40 Z" fill="#B9BEC9" stroke="#8A93A6" stroke-width="2.5"></path>
+                <path d="M-24,-30 L23,-30" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <path d="M-23,-20 L24,-20" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <path d="M-23,-10 L24,-10" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <path d="M-23,0 L24,0" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <path d="M-23,10 L24,10" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <path d="M-23,20 L24,20" stroke="#8A93A6" stroke-width="1.4" opacity=".7"></path>
+                <circle cx="-24" cy="33" r="4" fill="none" stroke="#6F7887" stroke-width="1.5"></circle>
+                <circle cx="-13" cy="33" r="4" fill="none" stroke="#6F7887" stroke-width="1.5"></circle>
+                <path d="M-24,33 L-19,26 L-13,33 M-19,26 L-18,33 M-19,26 L-24,27" stroke="#6F7887" stroke-width="1.3" fill="none"></path>
+                <path d="M-19,26 L-19,22" stroke="#6F7887" stroke-width="1.2"></path>
+                <path d="M-13,33 L-10,30 L-12,29" stroke="#6F7887" stroke-width="1.2"></path>
+                <circle cx="26" cy="31" r="5" fill="#A8C5B8" opacity=".85"></circle>
+                <path d="M26,36 L26,40" stroke="#6F7887" stroke-width="1.5"></path>
+              </g>
+              <text x="-34" y="52" font-size="12" fill="#8A93A6">老旧社区</text>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <div class="fig" data-reveal="">
+            <h3 class="fig-title">三类小区：样本量 / 可达率 / 中位步行</h3>
+            <div class="fig-panel">
+              <div class="fig-body" data-fig="图5c"></div>
+            <p class="fig-note">数据来源：高德步行路径规划 API 逐点实测；样本：商品房 801 / 老旧社区 172 / 城中村 48，合计 1021 个小区；时间：2026-09 采集；口径：可达率＝该类小区步行 ≤15 分钟数量 ÷ 该类样本量，中位步行＝该类小区到最近社康步行时间的中位数（门到门，不含等电梯与挂号）；⚠ 三栏 x 轴量纲不同（个 / ％ / 分钟），只作横向「同类比较」；⚠ 城中村仅 48 样本，稳定性弱于商品房与老旧社区。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>三类小区的可达率几乎重合。商品房、城中村和老旧社区，并没有呈现出明显的层级差别。</p>
+      <p>这使得问题的焦点从小区自身的类型，转向了它在城市中的具体位置。</p>
+    </div>
+
+    <div class="fig fig-fw" data-reveal="">
+      <h3 class="fig-title">深圳 10 区 15 分钟步行可达率地图</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图6" style="height: 560px; "></div>
+      <p class="fig-note">数据来源：高德步行路径规划 API 逐点实测；样本：深圳 1021 个居住小区，分区样本量 21（大鹏新区）–156（宝安区）；时间：2026-09 采集；口径：可达率＝该区步行 ≤15 分钟小区数 ÷ 该区样本数；⚠ 大鹏新区样本仅 21 个，颜色极不稳定，仅作方向参考；⚠ 官方口径（90% 以上）与本次实测口径（全市 85.3%）不同，不可直接相减；⚠ 底图：DataV GeoAtlas 440300，大鹏半岛从龙岗区拆出、单列为「大鹏新区」（按 440399 标记）。</p>
+    </div>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图2-2_pastel.jpg" alt="社康门头暖光：夜里的一盏灯" loading="lazy" width="994" height="1480">
+    </figure>
+
+    <div class="blk" data-reveal="">
+      <p>各区可达情况并不均衡，光明和大鹏的样本可达率相对较低，而多数区域保持在较高水平。全市平均值可能掩盖局部区域的空间缺口。</p>
+    </div>
+
+    <p class="blk-lead" data-reveal="">但地图上的比例还不是故事的终点。同样的可达率，放在不同的人口规模中，意味着不同的绝对人数。</p>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">各区「15 分钟不可达」常住人口（万人）</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图6b"></div>
+      <p class="fig-note">数据来源：高德步行路径规划 API 逐点实测（2026-09 采集）＋ 2024 年末常住人口；样本：深圳 1021 个居住小区，分区样本量 21（大鹏新区）–156（宝安区）；口径：不可达人口 ＝ 该区常住人口 ×（1 − 该区 15 分钟步行可达率），假设样本小区可在区内代表人口分布；条形长度＝不可达人口估计值，条形颜色＝该区不可达率，横线＝该估计值的 95% 置信区间；⚠ 大鹏新区样本仅 21 个，置信区间极宽，只作方向参考；⚠ 十区合计约 248.4 万，为样本外推估计，非官方统计；⚠ 人口为 2024 年末数据，与 2026 年实测可达率存在年份差。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>将各区样本不可达率与常住人口结合外推，深圳十区不可达人口估计合计约248.4万人。该结果是基于样本的估算，并非逐户统计或官方公布人数；大鹏样本量较少，需谨慎解读。</p>
+    </div>
+
+    <figure class="shot wide" data-px="mid">
+      <img src="img/图2-3_pastel.jpg" alt="高层与步道：城市空间的步行尺度" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="hook" data-reveal="">
+      走得到只是第一步。签约、诊疗和转诊数据，还能进一步呈现居民是否真正进入基层医疗服务路径。
+      <span class="shake">—— 即使走得到，故事也没结束：离得近，不等于生病时一定会去。</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S4 第三章 · 就医路径 ================= -->
+<section class="ch" id="s4" data-ch="" data-lab="就医路径" data-chap="#5B8FD9">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">就医路径</h2>
+      <p class="ch-sub">到达基层网点之后，居民是否会在这里就诊，以及基层与医院之间能否顺畅转诊，是另一道关。</p>
+    </div>
+
+    <figure class="shot wide" data-px="mid">
+      <img src="img/图3-1_pastel.jpg" alt="四道门：基层医疗的入口" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="notes">
+      <div class="sticky"><span class="sv" data-val="27.96" data-dec=".00" data-suf="%">27.96%</span><p class="su">上海社区诊疗占比（2024）</p><p class="sd">2015 年为 32.7%，一路下行</p></div>
+      <div class="sticky"><span class="sv" data-val="65" data-suf="%">65%</span><p class="su">试点城市考核标准</p><p class="sd">国办发〔2015〕70 号附件 · 非全国统一目标</p></div>
+      <div class="sticky"><span class="sv gap" data-val="0.69" data-dec=".00" data-suf="%">0.69%</span><p class="su">双向转诊占基层诊疗量比重</p><p class="sd">通道存在，但绝大多数就诊没有被「转」</p></div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>一家社康离家近，并不意味着它一定会出现在居民的就医选择中。基层医疗要成为就医过程中的重要一站，既需要承担实际的诊疗服务，也需要与居民建立联系，并在必要时与上级医院形成转诊通道。</p>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">全国基层诊疗占比距 65% 试点考核线的缺口</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图7"></div>
+      <p class="fig-note">数据来源：历年《我国卫生健康事业发展统计公报》；时间：2015–2025；口径：图7 以 2025 年数据为重点，65% 出自国办发〔2015〕70 号附件的<b>试点城市考核标准</b>（引用须写「试点」），不是全国统一目标；⚠ 与第一章图1 口径不同：图1 为基层诊疗量占比，本图为距 65% 目标的绝对缺口，两者互补，不作并列或相减；⚠ 2020 年受疫情影响为异常年。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>基层诊疗占比虽在近年回升，但仍低于十年前的水平。65%来自试点城市考核标准，应作为政策背景参照，而非全国统一目标。</p>
+      <p>全国整体的变化，也不代表所有地区都沿着相同的方向前进。</p>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">全国回升 vs 上海向下：两条曲线的十年</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图8"></div>
+      <p class="fig-note">数据来源：上海统计年鉴（社区诊疗占比）＋历年《我国卫生健康事业发展统计公报》（全国基层占比）；时间：2015–2024；口径：上海「社区诊疗占比」（27.96%，2024）与全国「基层诊疗占比」（52.1%，2024）是两个不同口径、不同分母，绝对值不可直接比较，本图只比趋势方向（2015=100 指数化）；上海 2020/2022 为疫情异常年；上海下降主要集中在中心城区。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>全国基层诊疗占比在下降后有所回升，上海社区诊疗占比则呈现不同走势。不同地区的基层服务发展并不同步，不能只用单一趋势概括。</p>
+    </div>
+
+    <p class="blk-lead" data-reveal="">签约制度则让我们进一步看到，建立服务关系与实际接受服务之间，还有一个转换过程。</p>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">上海组合签约率：名字多了，脚步没有跟上</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图9"></div>
+      <p class="fig-note">数据来源：上海市历年统计公报、市卫健委政协提案答复、经济日报、健康报；时间：2016–2024；口径：2017–2022 的五个点原文均为「超/以上」，只能当<b>下限</b>读（空心点表示），2023–2024 才是精确值（实心点）；⚠ 签约率（占居民比）与社区诊疗占比（占就诊比）是两个不同口径，不可并列或相减。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>上海组合签约率逐渐升高，但社区诊疗占比没有以相同幅度同步上升。建立签约关系与实际接受基层诊疗，是相连却不同的环节。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图3-2_pastel.jpg" alt="导诊队列：名字多了，脚步没跟上" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <p class="ck time" data-reveal="">建立联系，与真正使用服务，是就医过程中相连却不同的两个环节。</p>
+
+    <p class="blk-lead" data-reveal="">而当居民已经进入基层医疗服务体系，下一步还涉及基层与医院之间能否形成顺畅的转诊联系。</p>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图3-3_pastel.jpg" alt="转诊的路：基层与医院之间" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">双向转诊：通道变宽，占比仍然很小</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图10"></div>
+      <p class="fig-note">数据来源：国家卫健委/医保局历年答复与发布会实录（逐年来源不同，见数据表）；时间：2015–2025；口径：转诊率＝双向转诊人次 ÷ 基层诊疗人次（分母为基层，非总诊疗）；⚠ 2017、2022 为自行反推的推算值（空心标记）；2016、2025 无官方总量，不画点；数据性质逐年不同，趋势方向可读、绝对值需谨慎。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>双向转诊量有所变化，但转诊量占基层诊疗量的比例仍然较低。转诊通道的建立，不等于它已经成为普遍的就医路径。</p>
+    </div>
+
+    <div class="hook" data-reveal="">
+      空间可达与服务使用之外，居民还要在合适的时间遇到仍在开诊的机构。
+      <span class="shake">—— 需要的时候，它还在吗？</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S5 第四章 · 服务时间 ================= -->
+<section class="ch" id="s5" data-ch="" data-lab="服务时间" data-chap="#6E5A9E">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">服务时间</h2>
+      <p class="ch-sub">走得到，不代表需要时能获得服务。把步行路径与社康营业时间叠加，15分钟内可抵达且仍在开诊的服务范围，会随时间变化。</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>知道去哪家医疗机构，并不意味着随时都能去。医疗服务有自己的时间表，居民的生活也有各自的节奏，两者一旦错位，家门口的医疗机构即使距离不远，也未必能在需要时提供服务。</p>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">24 小时里，「步行可达且开诊」的变化</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图11"></div>
+      <p class="fig-note">数据来源：高德步行路径实测 × 社康营业时间解析；时间：2026-09；样本：1021 小区 × 945 机构；口径：可达率＝该小时「步行≤15 分钟且机构开诊」的小区占比；⚠ 晚间可达率为下限（高德营业时间系统性低估晚间，盐田逐点复核差异中 4/5 为高德偏短）；⚠ 夜间非 0 的部分来自 24 小时急诊兜底，不代表「15 分钟医疗圈」覆盖；8 点前的低值不代表无人可达——是机构未开诊。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>上午10—11时，84.8%的住宅小区可在15分钟内步行到达仍在开诊的社康；20时降至57.6%，21时进一步降至14.2%。空间距离没有改变，但可用服务会随开诊时间收缩。</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>对工作时间固定、需要定期复诊或承担照护责任的人群而言，门诊时段可能影响就医安排。延时服务和周末开诊，是缩小这一时间缺口的可能方式。</p>
+    </div>
+
+    <figure class="shot wide" data-px="mid">
+      <img src="img/图4-1_pastel.jpg" alt="一天四时刻：服务时间与生活节奏" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <!-- 177 便签墙 -->
+    <div class="note-wall" data-reveal="">
+      <p class="wall-cap">945家社康中有177家缺少可用的营业时间字段，占18.7%；另有171个小区无法确认最近社康的营业时间。两组数据的统计单位不同，反映的是服务时间信息本身仍存在缺口。下图每个灰色便签，就是一家「查不到几点开门」的社康。</p>
+            <div class="badgewall" id="badgewall"></div>
+    </div>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">机构开着，不等于 15 分钟内能走到一家开着的机构</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图12"></div>
+      <p class="fig-note">数据来源：高德开放平台 POI 营业时间解析（表 D）；时间：2026-09；样本：945 家机构；口径：开诊占比＝该小时处于营业时段内的机构数 ÷ 945，不含空间可达约束；⚠ 「城市人作息」为典型作息的示意曲线，用于对照，非实测数据；⚠ 0.8% 的夜间基线来自 24 小时值班站及营业时间缺失机构。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>上午10—11时，机构端开诊率为99.3%；同一时段，能在15分钟内步行到达一家开诊社康的小区占比为84.8%。服务点的分布、真实步行路径与开诊时间，共同影响着居民在特定时段的实际选择。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图4-2_pastel.jpg" alt="夜里关门的社康：机构开着 ≠ 走得到开着的机构" loading="lazy" width="994" height="1480">
+    </figure>
+
+    <p class="ck time" data-reveal="">机构开着，不等于居民在15分钟内就能走到一家开着的机构。</p>
+
+    <div class="fig" data-reveal="">
+      <h3 class="fig-title">区 × 时段：一天里哪些地方、哪些时候还能看病</h3>
+      <div class="fig-panel">
+        <div class="fig-body" data-fig="图13"></div>
+      <p class="fig-note">数据来源：高德步行路径实测 × 社康营业时间解析（表 A–E）；时间：2026-09；样本：各区内有营业时间的小区（见各区括号内 n）；口径：可达率＝该区该小时「步行≤15 分钟且有机构开诊」的小区占比；⚠ 光明区 95 个样本中 55 个营业时间未知、大鹏新区仅 21 个样本，两区结果不确定性大，读图时须对照括号内 n；⚠ 龙华区因含较多 24 小时值班站，深夜逆势偏高，属特例而非普遍。</p>
+    </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>不同区域在午间和夜间的可达且开诊比例存在差异。解读时需同时关注各区样本量和营业时间信息完整度，不能把个别区域的特殊值视为普遍情况。</p>
+    </div>
+
+    <p class="ck time" data-reveal="">走得到的距离，还需要与可用的时间重叠。</p>
+
+    <div class="blk" data-reveal="">
+      <p>面对网点、使用和时间上的不同限制，各地也在尝试从不同环节重新组织基层医疗服务。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图4-3_pastel.jpg" alt="夜间急诊：需要的时候，灯还亮着吗" loading="lazy" width="1506" height="968">
+    </figure>
+  </div>
+</section>
+
+<!-- ================= S6 第五章 · 三地破局 ================= -->
+<section class="ch" id="s6" data-ch="" data-lab="三地破局" data-chap="#3FA98F">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">三地破局</h2>
+      <p class="ch-sub">有些「15分钟」，已经开始这样运转</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>北京、长汀和广州天河分别从服务网络、基层诊疗结构和服务时间入手，呈现基层医疗服务改善的不同方向。</p>
+    </div>
+
+    <figure class="shot wide paperwash" data-px="mid">
+      <img src="img/图5-1_pastel.jpg" alt="三城并置：北京、长汀、广州天河" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="tricards">
+      <div class="sample" data-reveal="">
+        <div class="city"><svg class="illus" width="34" height="34" viewBox="0 0 110 100"><path d="M20,80 L50,30 L80,80 Z" fill="none" stroke="#5B8FD9" stroke-width="2.5"></path><path d="M35,60 L55,45 L75,60" fill="none" stroke="#5B8FD9" stroke-width="2" opacity=".7"></path><rect x="44" y="14" width="12" height="16" fill="#F0F6F4" stroke="#3FA98F" stroke-width="2"></rect><circle cx="20" cy="80" r="6" fill="#5B8FD9" opacity=".5"></circle><circle cx="50" cy="30" r="6" fill="#5B8FD9" opacity=".6"></circle><circle cx="80" cy="80" r="6" fill="#5B8FD9" opacity=".5"></circle></svg><span class="nm">北京</span><span class="k">一张基层网，接住更多就诊</span></div>
+        <p class="mech">把现有的网用得更透：网点在净减少，诊疗量却在明显增长。</p>
+        <div class="fig">
+          <div class="fig-panel">
+            <div class="fig-body" data-fig="图14"></div>
+          <p class="srcn">图14 · 机构数量 vs 社区诊疗量（2023–2024）</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="sample" data-reveal="">
+        <div class="city"><svg class="illus" width="34" height="34" viewBox="0 0 110 100"><path class="hand" d="M15,85 C35,70 30,55 50,50 S75,30 90,15" fill="none" stroke="#3FA98F" stroke-width="3.5"></path><path d="M15,85 L110,85" fill="none" stroke="#8A93A6" stroke-width="2" opacity=".6"></path><circle cx="90" cy="15" r="5" fill="#E8A33D"></circle></svg><span class="nm">长汀</span><span class="k">让基层这条路越走越宽</span></div>
+        <p class="mech">把人引回正确的路径：基层诊疗占比沿着时间一路向上。</p>
+        <div class="fig">
+          <div class="fig-panel">
+            <div class="fig-body" data-fig="图15"></div>
+          <p class="srcn">图15 · 长汀基层诊疗占比（2018 → 2025）</p>
+        </div>
+      </div>
+      </div>
+
+      <figure class="shot tri-break" data-px="mid">
+        <img src="img/图5-3_pastel.jpg" alt="圆桌：长汀医改的基层协商" loading="lazy" width="1506" height="968">
+      </figure>
+
+      <div class="sample" data-reveal="">
+        <div class="city"><svg class="illus" width="34" height="34" viewBox="0 0 110 100"><path d="M20,90 A40,40 0 1,1 90,90 Z" fill="none" stroke="#6E5A9E" stroke-width="2.5"></path><circle cx="55" cy="48" r="12" fill="#F0DC9E" stroke="#C08A2E" stroke-width="2"></circle><path d="M55,42 v8 M55,52 L60,56" stroke="#C08A2E" stroke-width="2"></path><circle cx="30" cy="70" r="2.5" fill="#6E5A9E"></circle><circle cx="80" cy="60" r="2" fill="#6E5A9E"></circle><circle cx="70" cy="80" r="1.8" fill="#6E5A9E"></circle></svg><span class="nm">广州天河</span><span class="k">把就医的时间窗，延到夜晚</span></div>
+        <p class="mech">把时间对齐人的生活：服务时间统一延长，夜诊纳入区域安排。</p>
+        <div class="fig">
+          <div class="fig-panel">
+            <div class="fig-body" data-fig="图16"></div>
+          <p class="srcn">图16 · 天河社康延时服务结构</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>北京社区卫生服务机构总数净减少，诊疗量却明显增长。机构数量与服务使用量并不总是同步变化，评价服务网络还需关注既有机构实际承担的诊疗服务。</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>长汀基层诊疗占比沿时间上升，呈现了当地基层诊疗结构的变化。这个案例提供的是同一地区的时间变化线索，不宜直接与其他地区作简单排名。</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>广州天河将社康服务时间延伸至更晚时段，并将夜诊纳入区域安排。它展示了通过调整服务时间，让基层医疗更贴近居民生活节奏的一种做法。</p>
+    </div>
+
+    <figure class="shot" data-px="mid">
+      <img src="img/图5-2_pastel.jpg" alt="延时门诊夜：服务时间延到夜晚之后" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <div class="hook" data-reveal="">
+      三个案例对应不同的改善路径：让既有网点发挥作用、让基层承担更多诊疗、让服务时间贴近居民需求。基层医疗的可及性，需要空间、服务和时间共同支撑。
+      <span class="shake">—— 没有人干等一张更大的网，而是先把手里这一张，重新组织了一遍。</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S7 第六章 · 回到原点 ================= -->
+<section class="ch finale" id="s7" data-ch="" data-lab="回到原点" data-chap="#E8A33D">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">回到原点</h2>
+      <p class="ch-sub">回到那个15分钟</p>
+    </div>
+
+    <figure class="shot wide" data-px="mid">
+      <img src="img/图6-1_pastel.jpg" alt="闭环长卷：从家到社康的完整一圈" loading="lazy" width="1506" height="968">
+    </figure>
+
+    <p class="back" data-reveal="">回到开篇的问题：生病时，你的第一反应是去哪？</p>
+
+    <p class="blk-lead" data-reveal="">一路看下来，15分钟不再只是地图上的一个圆。它需要沿着真实道路落到居民脚下，也需要从一个医疗服务点，延伸成一段能够继续走下去的就医过程。</p>
+
+    <div class="tier" data-reveal="">
+      <svg class="illus" viewBox="0 0 110 90"><circle cx="42" cy="40" r="20" fill="none" stroke="#5B8FD9" stroke-width="3" stroke-dasharray="6 6"></circle><path class="hand" d="M18,74 C40,64 70,60 92,56" stroke="#8A93A6" stroke-width="2.5" opacity=".6"></path><circle cx="30" cy="78" r="4" fill="#E8A33D"></circle></svg>
+      <div>
+        <p class="tier-t">地图上的圆，<b>得落到真实的路上</b></p>
+        <p class="ck" data-reveal="">深圳的步行实测，把地图上的空间覆盖放进了具体的居住地点。大多数小区能够在15分钟内走到最近社康，但区域之间仍有差异，部分地方的步行缺口也在更大的居住人口规模中显现出来。</p>
+        <p class="ck" data-reveal="">一个医疗点被标注在地图上，并不意味着每一条通往它的路都同样方便。15分钟的起点，是居民真正能够抵达。</p>
+      </div>
+    </div>
+
+    <div class="tier s2" data-reveal="">
+      <svg class="illus" viewBox="0 0 110 90"><path class="hand" d="M20,80 C30,60 40,55 55,48 S80,30 92,14" fill="none" stroke="#3FA98F" stroke-width="3.5"></path><circle cx="20" cy="80" r="5" fill="#3FA98F"></circle><circle cx="92" cy="14" r="5" fill="#E8616B"></circle></svg>
+      <div>
+        <p class="tier-t">家门口的点，<b>还得接上下一程</b></p>
+        <p class="ck" data-reveal="">走到社康，并不意味着一次就医已经顺利展开。基层诊疗、家庭医生签约与双向转诊，分别呈现了基层医疗与居民实际就医之间的不同联系。</p>
+        <p class="ck" data-reveal="">一个点只有进入真实的就医过程，才不只是地图上的位置，而成为居民看病时可以选择的一站。</p>
+      </div>
+    </div>
+
+    <div class="tier s3" data-reveal="">
+      <svg class="illus" viewBox="0 0 110 90"><path class="hand" d="M20,74 C40,30 70,24 90,46" fill="none" stroke="#6E5A9E" stroke-width="3" stroke-dasharray="3 7"></path><path d="M90,46 A16,16 0 1,1 70,50" fill="none" stroke="#F0DC9E" stroke-width="4"></path><circle cx="30" cy="78" r="3" fill="#E8A33D"></circle><circle cx="82" cy="16" r="2.5" fill="#6E5A9E"></circle><circle cx="60" cy="12" r="2" fill="#6E5A9E"></circle></svg>
+      <div>
+        <p class="tier-t">服务的灯，<b>要亮在需要的时候</b></p>
+        <p class="ck" data-reveal="">即使路程不远、就医路径清楚，时间仍然决定着服务能否真正派上用场。午间与夜间的起伏提醒我们，服务的可用范围并不是固定的。</p>
+        <p class="ck" data-reveal="">一扇门什么时候开，决定了居民什么时候能够走进去。家门口的服务不仅需要存在，也需要在居民需要的时候保持可用。</p>
+      </div>
+    </div>
+
+    <p class="ck big" data-reveal="">「15分钟」<b>从来不只是15分钟的距离</b></p>
+
+    <div class="blk" data-reveal="">
+      <p>它需要让居民走得到、走得通，也在需要的时候用得上。</p>
+      <p>2027正在靠近。衡量家门口的医疗服务是否真正走进生活，不只看地图覆盖了多少地方，更要看居民需要时，能否顺利抵达，并获得所需服务。</p>
+    </div>
+
+    <div class="triad" data-px="fg">
+      <figure class="shot sq"><img src="img/图6-3b_pastel.jpg" alt="路：走得到" loading="lazy" width="994" height="968"></figure>
+      <figure class="shot sq"><img src="img/图6-3a_pastel.jpg" alt="门：走得通" loading="lazy" width="994" height="968"></figure>
+      <figure class="shot sq"><img src="img/图6-3c_pastel.jpg" alt="灯：用得上" loading="lazy" width="994" height="968"></figure>
+    </div>
+    <p class="triad-cap">走得到 · 走得通 · 用得上</p>
+  </div>
+</section>
+
+<!-- ================= S8 附注 · 数据溯源 ================= -->
+<section class="ch" id="s8" data-ch="" data-lab="数据溯源" data-chap="#8A93A6">
+  <div class="inner">
+    <div class="chapter-head" data-reveal="">
+      <h2 class="ch-name">数据溯源</h2>
+      <p class="ch-sub">每一个数字，都可以被追问</p>
+    </div>
+
+    <div class="blk" data-reveal="">
+      <p>这篇作品里的每一个数字，都标注了它的来源、口径与局限——包括那些让结论变得不那么漂亮的部分。对数据诚实，是从承认它在哪里失效开始的。</p>
+    </div>
+
+    <div class="footnote">
+      <details>
+        <summary>数据来源（9 类）</summary>
+        <div class="box">
+          <ul>
+            <li><b>全国基层医疗网络</b>：国家卫生健康委员会历年《我国卫生健康事业发展统计公报》与《中国卫生健康统计年鉴》，涉及2015—2025年的机构数量、卫生人员与诊疗情况。2025年全国总诊疗人次及基层医疗卫生机构诊疗人次依据《2025年我国卫生健康事业发展统计公报》。</li>
+            <li><b>省域指标</b>：2023年《中国卫生健康统计年鉴》机构数据与2024年分省非医院机构占比数据，涉及30个省级单元。</li>
+            <li><b>深圳空间实测</b>：深圳1021个小区点位与步行路径数据，按步行路径测算到最近社康所需的时间，2026年。</li>
+            <li><b>深圳时间实测</b>：945家社康营业时间信息整理与步行可达情况叠加，2026年。</li>
+            <li><b>上海就医路径</b>：上海市卫生健康委员会历年统计公报及公开答复。</li>
+            <li><b>双向转诊序列</b>：根据医保、卫生健康等部门不同年份的公开答复整理，其中2017年、2022年为推算值。</li>
+            <li><b>北京样本</b>：北京市卫生健康委员会公开数据，2023—2024年。</li>
+            <li><b>长汀样本</b>：长汀医改相关公开汇编数据，2018—2025年。</li>
+            <li><b>广州天河样本</b>：广州市天河区卫生健康部门公开数据，包括服务时间与夜诊情况。</li>
+            <li><b>官方可达率参照</b>：2026年9月14日国务院新闻办公室相关发布会公布的15分钟医疗服务可达口径。</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>图表口径说明（红线）</summary>
+        <div class="box">
+          <ul>
+            <li>全国基层诊疗占比采用2025年统计公报口径53.1%；此前52.6%的发布会口径不与之混用。</li>
+            <li>图7中的65%来自国办发〔2015〕70号附件中的试点城市考核标准，不是全国统一目标。</li>
+            <li>官方可达率与深圳小区步行实测的样本范围、统计单位及测量方法不同，应分别呈现。</li>
+            <li>图4纵轴为非医院机构占比的倒算口径，不等同于基层诊疗实际使用率；机构数据与占比数据的年份不完全一致。</li>
+            <li>深圳各区不可达人口由小区不可达率与常住人口折算估计，并非逐户统计结果。大鹏小区点位较少，相关数值结合样本量及估算区间阅读。</li>
+            <li>上海27.96%为社区诊疗占比，42%为签约居民社区就诊率，属于不同指标，不相减、不混为一谈。</li>
+            <li>双向转诊序列由不同部门、不同年份的公开答复整理而来，并非口径完全一致的连续公报序列；2017年和2022年数据为推算值。</li>
+            <li>深圳时间分析中，小区可达且开诊比例与机构本身开诊率的统计单位和分母不同，不直接相减归因。</li>
+            <li>945家机构中177家营业时间字段缺失；时间分析中另有171个小区的最近社康营业时间未知，两组数字的统计单位不同。</li>
+            <li>夜间营业时间信息存在误差，相关结果在图注中标明为保守下限。</li>
+            <li>北京、长汀和广州天河的统计口径、时间跨度与观察维度不同，不作简单横向排名。</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>奔向2027：15分钟医疗圈，如何真正走进生活？</p>
+  <p>数据来源与口径见上「附注」｜图注均标注来源、样本量、时间与口径</p>
+</footer>
+
+<!-- 便签墙：177 家「查不到营业时间」的社康 -->
+<script>
+(function(){
+  var w = document.getElementById('badgewall');
+  if (!w) return;
+  var frag = document.createDocumentFragment();
+  for (var i = 0; i < 177; i++) {
+    var b = document.createElement('div');
+    b.className = 'badge';
+    frag.appendChild(b);
+  }
+  w.appendChild(frag);
+})();
+</script>
+
+<script src="assets/echarts.min.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/app.js"></script>
+
+
+
+
+
+
+</body></html>
